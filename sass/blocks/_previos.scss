@@ -1,0 +1,37 @@
+.previos {
+    min-height: 470px;
+    background-color: #F6F6F6;
+    padding: 70px 0 77px 0;
+    &__title {
+        color: #0D0D0D;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 75px;
+    }
+    &__icons {
+        display: block;
+        text-align: center;
+        .title {
+            margin-top: 45px;
+            color: #0D0D0D;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+        .subtitle {
+            width: 225px;
+            margin-top: 25px;
+            font-size: 14px;
+            font-weight: 300;
+            a {
+                color: #FF0000;
+                text-decoration: underline;
+            }
+        }
+}
