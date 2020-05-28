@@ -1,0 +1,197 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 730px;
+    }
+    .promo {
+        min-height: 600px;
+        padding: 20px 0 50px 0;
+        &__wrapper {
+            margin-top: 50px;
+            align-items: center;
+        }
+    }
+    .previos {
+        padding: 45px 0 45px 0;
+        &__wrapper {
+            justify-content: space-between;
+            margin-top: 50px;
+            .title {
+                font-size: 16px;
+                margin-top: 40px;
+            }
+            .subtitle {
+                font-size: 13px;
+            }
+        }
+        &__icons {
+            width: 220px;
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0 50px 0;
+        .title {
+            font-size: 30px;
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 50px;
+            font-size: 18px;
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 500px;
+    }
+    .promo {
+        min-height: 540px;
+        padding: 15px 0 50px 0;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__header {
+            text-align: center;
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            margin-top: 40px;
+            width: 450px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        .button {
+            font-size: 11px;
+            width: 140px;
+        }
+    }
+    .previos {
+        min-height: 300px;
+        padding: 30px 0 43px 0;
+        &__title {
+            font-size: 27px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+            .title {
+                font-size: 14px;
+                margin-top: 35px;
+            }
+            .subtitle {
+                display: none;
+            }
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0 50px 0;
+        .title {
+            font-size: 27px;
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+    .promo {
+        min-height: 540px;
+        padding: 10px 0 30px 0;
+        &__header {
+            width: 280px;
+            font-size: 30px;
+        }
+        &__subheader {
+            width: 280px;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        &__icons {
+            width: 280px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        .button_main {
+            margin-top: 40px;
+            font-size: 14px;
+            width: 250px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 150px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+        .button {
+            font-size: 10px;
+            width: 120px;
+        }
+    }
+    .previos {
+        min-height: 200px;
+        padding: 20px 0 25px 0;
+        &__title {
+            font-size: 24px;
+        }
+        &__wrapper {
+            margin-top: 20px;
+            .title {
+                font-size: 9px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 20px 0 30px 0;
+        .title {
+            font-size: 26px;
+            text-align: center;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 20px auto;
+        width: 270px;
+        input {
+            height: 45px;
+            margin-bottom: 10px;
+        }
+        .button_submit {
+            width: 270px;
+        }
+    }
+}
